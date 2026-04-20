@@ -1,0 +1,35 @@
+I  created this list in a notepad file for reference
+
+Common Ubuntu Commands:
+
+ls -- Lists the files and folders in the current directory.
+
+cd [folder] -- moves you into another folder (changes directory).
+
+cd .. -- Backs out of current folder
+
+cd ~ -- Go to your home folder
+
+pwd -- shows the current directory you are in.
+
+Control + C  -- Stop running program and bring cmd line back 
+
+sudo halt -- safely shut down pi
+
+cp -- copies a file from one location to another on the same system.
+
+nano FILENAME.py - To open and modify the file, then save( CTRL + O), then exit(CTRL + X)
+
+python3 -- runs a Python script.
+
+exit -- ends the session and returns to local computer
+
+
+In command prompt:
+scp -- securely copies files between computers(Such as raspberry pi and laptop)
+Example:
+scp USERNAME@(Current IP address):/home/USERNAME/(folder)(Filename) C:\Users\Yourname\Desktop\
+
+
+Remote Login:
+ssh USERNAME@cs350lab.local -- Connects to Raspberry Pi remotely
